@@ -107,42 +107,6 @@ int main()
 
 	elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 	cout << elapsed_secs << endl;
-
-	// for(int i=1;i<=100000000;i++)
-	// 	RB.insert(i);
-	// begin = clock();
-	// RB.insert(20000000);
-	// end = clock();
-	// elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
-	// cout << elapsed_secs << endl;
-	//--------------------------------------------------------- 6 x 10^-6 seconds insertion time after inserting 100 million sorted elements // STL RED BLACK
 	
-	// for(int i=1;i<=100000000;i++)
-	// 	insert(&root, i);
-	// begin = clock();
-	// insert(&root, 200000000);
-	// end = clock();
-	// elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
-	// cout << elapsed_secs << endl;
-	//--------------------------------------------------------- 3 x 10^-6 seconds insertion time after inserting 100 million sorted elements // SELF MADE AVL
-	// while(true)
-	// {
-	// 	set<int> RB;
-	// 	struct node *root = NULL;
-
-	// 	begin = clock();
-	// 	for(int i=1;i<=10000000;i++)
-	// 		insert(&root, rand() % 10000000);
-	// 	end = clock();
-	// 	elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
-	// 	cout << elapsed_secs << " : ";
-
-	// 	begin = clock();
-	// 	for(int i=1;i<=10000000;i++)
-	// 		RB.insert(rand() % 10000000);
-	// 	end = clock();
-	// 	elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
-	// 	cout << elapsed_secs << endl;
-	// }
 	return 0;
 }
