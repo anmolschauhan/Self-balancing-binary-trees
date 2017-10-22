@@ -1,4 +1,3 @@
-//rohit
 #include <bits/stdc++.h>
 #define MAX 5000000
 using namespace std;
